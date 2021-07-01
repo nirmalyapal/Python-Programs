@@ -1,0 +1,8 @@
+PlaneAltitude = 5000
+
+if PlaneAltitude <= 1000 :
+  print("Pilot please land the plane")
+elif PlaneAltitude >1000 and PlaneAltitude <= 5000:
+    print("Pilot please come down to 1000ft")
+else:
+      print("“Pilot please go around and try later”")
