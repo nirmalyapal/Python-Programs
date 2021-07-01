@@ -1,0 +1,7 @@
+maxTicketsAvailable=int(input("Total no. of Tickets:"))
+n=[]
+for i in range(maxTicketsAvailable):
+    n.append(input("Enter the name of the person:"))
+    import random
+d=random.randint(0,maxTicketsAvailable-1)
+print("The winner is:",n[d])
