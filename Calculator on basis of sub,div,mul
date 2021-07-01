@@ -1,0 +1,8 @@
+a = int(input("First Number"))
+b = int(input("second Number"))
+sub = a - b
+print("our subtraction result is", sub)
+mul = a * b
+print("our multiplication result is", mul)
+div = a / b
+print("our division result is", div)
